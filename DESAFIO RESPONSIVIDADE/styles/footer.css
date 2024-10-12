@@ -1,0 +1,23 @@
+footer{
+    justify-content: center;
+    align-items: center;
+    --pd-i: 1rem;
+    --pd-b: 1rem;
+    --gp: 1rem;
+    font: var(--text-sm);
+    padding-inline: var(--pd-i);
+    padding-block: var(--pd-b);
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  @media (width >= 80rem){
+    footer{
+      --pd-i: 2rem;
+      --pd-b: 1.5rem;
+  
+      & .legal{
+        margin-left: auto;
+      }
+    }
+  }

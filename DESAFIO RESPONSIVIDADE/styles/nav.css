@@ -1,0 +1,31 @@
+nav {
+    --pb: 1rem;
+    --pi: 1rem;
+  
+    display: flex;
+    line-height: 0;
+  
+    padding-block: var(--pb);
+    padding-inline: var(--pi);
+  
+    & .item-menu {
+      margin-left: auto;
+    }
+  
+    & ul li:last-child img {
+      width: 2.5rem;
+      height: 2.5rem;
+      object-fit: cover;
+    }
+  }
+  
+  @media (width >= 80rem) {
+    nav {
+      --pb: 1.25rem;
+      --pi: 2rem;
+  
+      & li.desktop-only {
+        display: initial;
+      }
+    }
+  }

@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+  }
+  
+  .desktop-only {
+    display: none;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .fl-column{
+    flex-direction: column;
+  }
+  
+  .py-sm {
+    padding-block: 1rem;
+  }
+  
+  .py-lg {
+    padding-block: 1.25rem;
+  }
+  
+  .px-sm {
+    padding-inline: 1rem;
+  }
+  
+  .px-lg {
+    padding-inline: 2rem;
+  }
+  
+  .gap-1\.5 {
+    gap: 1.5rem;
+  }
+  
+  .gap-1 {
+    gap: 1rem;
+  }
+  
+  .gap-2 {
+    gap: 2rem;
+  }

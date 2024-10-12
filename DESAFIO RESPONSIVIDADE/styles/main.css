@@ -1,0 +1,27 @@
+main {
+    justify-content: center;
+    --img-size: 20.5rem;
+    --gap: 1rem;
+    --pd: 1rem;
+  
+    & .galery {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--gap);
+      padding-block: var(--pd);
+    }
+  }
+  
+  main img {
+    width: var(--img-size);
+    height: var(--img-size);
+    object-fit: cover;
+  }
+  
+  @media (width >= 80rem) {
+    main {
+      --img-size: 25rem;
+      --gap: 1.5rem;
+      --pd: 1.5rem;
+    }
+  }
